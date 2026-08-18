@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gauteng EMS Help Desk — Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+  <div class="brand">GAUTENG EMS <span>HELP DESK</span></div>
+  <div class="component">GAUTENG EMS · HELP DESK</div>
+  <h1>Gauteng EMS <span>Help Desk</span></h1>
+
+  <div class="login-card">
+    <div class="logo"><img src="gauteng-ems-logo.png" alt="Gauteng EMS logo"><span>GAUTENG EMS</span></div>
+    <h2>Sign in</h2>
+    <p class="description">Welcome to the Gauteng EMS Help Desk. Sign in to access your support services.</p>
+
+    <div class="field">
+      <div class="field-header"><label for="email">Email</label></div>
+      <div class="input-wrapper">
+        <span class="input-icon">✉</span>
+        <input id="email" type="email" placeholder="Enter your email" autocomplete="email">
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="field-header">
+        <label for="password">Password</label>
+        <a href="#" class="forgot">Forgot?</a>
+      </div>
+      <div class="input-wrapper">
+        <span class="input-icon">♙</span>
+        <input id="password" type="password" placeholder="At least 8 characters" autocomplete="current-password">
+        <button class="password-toggle" id="togglePassword" type="button">◉</button>
+      </div>
+    </div>
+
+    <div class="button-zone" id="buttonZone">
+      <button id="loginButton" type="button">Log in</button>
+    </div>
+
+    <div class="hint"><strong>●</strong> Two fields to fill before it stands still.<br><br>
+      <strong>Tab</strong> reaches it. <strong>Enter</strong> submits.
+    </div>
+
+    <div class="success" id="success">✓ Login successful</div>
+
+    <div class="create-account">Need access? <a href="#">Request an account</a></div>
+  </div>
+
+  <div class="footer">GAUTENG EMS · HELP DESK · SECURE ACCESS</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
